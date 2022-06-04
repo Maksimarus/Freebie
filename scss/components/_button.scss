@@ -1,0 +1,42 @@
+@import '../variables';
+
+.button {
+  min-width: 200px;
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 1;
+  padding: 20px;
+
+  &_place_header {
+    padding: 11px 20px;
+    border: 1px solid $orange;
+    color: $orange;
+  }
+
+  &_place_hero-top {
+    background-color: $orange;
+    color: #fff;
+  }
+
+  &_place_hero-bottom {
+    background-color: transparent;
+    color: $orange;
+    border: 1px solid $orange;
+  }
+
+  &_black {
+    background-color: #000;
+    color: #fff;
+    margin-right: 16px;
+  }
+
+  &_transparent-black {
+    color: #000;
+    border: 1px solid #000;
+  }
+}

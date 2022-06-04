@@ -1,0 +1,15 @@
+.section {
+  &__title {
+    font-size: 32px;
+    line-height: calc(38 / 32);
+    text-align: center;
+    margin: 0 0 23px 0;
+  }
+
+  &__subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.4;
+    margin: 0 0 65px 0;
+  }
+}
